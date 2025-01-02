@@ -126,3 +126,87 @@ strArray.map(itemFromArray => itemFromArry[0]);
  console.log(now);
 
  // the above is the number of millisecond that have elapsed since midnight on January 1, 1970, UTC
+
+ //example #1
+ //Inputs as arguments
+ //Date (year, month, day, hour, minute, second, millisecond)
+ // Note: the month is 0-indexed (We have no clue why)
+
+ new Date(2020,11,2,7,10);
+
+ //Example 2
+ //Inputs as various strings
+ //This works with pretty much anything we can think of
+
+ new Date('Jan 20 2020');
+ new Date('January 20 2020');
+ new Date('Jan-20-2020');
+ new Date('Jan 20 2020 01:20:10');
+
+ //Example 3
+ //Inputs as milliseconds (Number)
+ new Date(102031203);
+
+ //Example 4
+ //Inputs as ISO 8601
+
+ new Date('2020-01-20T00:00Z');
+
+ //Example 5
+ //Inputs with Timezones
+
+ new Date ('Jan 20 2020 02:20:10 -02:00'); //Special Case
+ new Date ('Jan 20 2020 02:20:10 -10:00'); //Special Case
+ new Date ('Jan 20 2020 02:20:10 (PST)'); //Special Case
+
+ //Example 6
+ //The current moment - Specified in the users local timezone
+ new Date(Date.now());
+
+
+
+ //Using Built in Methods and Functions to work with JS Dates
+
+ const myDate2 = new Date();
+
+ myDate2.toString();
+
+ myDate2.toISOString();
+
+
+
+ //ISO Standard YYYY- MM-DDTHH:MM:SS.SSSZ
+  // Where the Z at the end is the time zone
+
+ //get month & Get Year
+
+
+
+ //Regular Expressions
+        //A way to pattern map within strings
+
+
+ const emailValidatorRegx = new RegExp('^.+@.+\..+$');
+
+ const userInput = 'invalidemail@gm';
+
+ const isValid = emailValidatorRegx.test(userInput);
+
+ console.log(isValid);
+
+ //Identifiers , Quantifiers
+
+ //what we are trying to pattern match
+
+
+ const regex = new RegExp('g');
+
+ const string5 = 'my favourite food is steak';
+ const string6 = 'my favourite thing to cook is steak';
+
+regx.test(string5);
+regx.test(string6);
+
+
+//can match full words, phrases or characters  - but is case-sensitive
+
