@@ -1,0 +1,32 @@
+.root{
+    --spacersize: 20px;
+}
+
+.make-bold{
+    font-weight: bold;
+}
+
+.make-pretty{
+    color : red;
+    font-size: xx-large;
+}
+
+.warning{
+    color: red;
+    border : 2px solid black;
+    margin: 20px;
+    padding-left:50px;
+    padding-top:25px;
+    background-color: yellow;
+}
+
+.links{
+    border : 5px solid purple;
+    margin: 55px;
+    padding-left:50px;
+
+}
+
+.spacer{
+   padding-top: var(--spacersize, 15px);
+}
