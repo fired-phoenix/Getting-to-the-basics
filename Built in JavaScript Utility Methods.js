@@ -210,3 +210,6 @@ regx.test(string6);
 
 //can match full words, phrases or characters  - but is case-sensitive
 
+ /faviourite/.test(string6)
+
+ /A-Za-z0-9@/.test(string6);
