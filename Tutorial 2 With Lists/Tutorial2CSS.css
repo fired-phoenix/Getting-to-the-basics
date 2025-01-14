@@ -1,0 +1,35 @@
+root{
+    --max-width:1024px
+}
+
+.main-body{
+    background-color: yellow;
+  /*  border: solid black 3px; */
+    padding: 10px 55px;
+
+}
+
+.first_class_button{
+    background-color: white;
+    margin: 10px;
+    border: solid black 3px;
+    color: blue;
+}
+
+.second_class_button{
+    background-color: blue;
+    margin: 10px;
+    border: solid white 3px;
+    color: white;
+
+}
+
+.static-nav{
+    padding: 20px 20px;
+    border: solid deeppink 3px;
+    width: var(--max-width)
+}
+
+.spacer{
+    margin-top: 25px;
+}

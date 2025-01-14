@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="ChallengeCSS.css"/>
+    <script src="ChallengeJS.js"></script>
+</head>
+<body>
+<!-- Notice how we have used "semantic HTML" here -->
+<!-- Re-read the lesson if you don't understand what that means -->
+<!-- https://www.zachgollwitzer.com/posts/2021/fullstack-developer-series/7-html-crash-course-->
+<main>
+  <section class="content">
+    <h2>Output</h2>
+
+    <p id="programmerMemesSec"> Programmer memes</p>
+      <div class = "meme-content">
+
+
+      </div>
+    <p id = "jokeSection">Tell me something funny</p>
+    <div class = "joke-content">
+
+
+    </div>
+    <p id = "randomQuote">Give me some wisdom...</p>
+    <div class = "quote-content">
+
+
+    </div>
+    <p id = "riddleSection">I want a riddle</p>
+    <div class = "riddle-content">
+
+    </div>
+
+
+  </section>
+
+  <!-- No need to change anything in this section -->
+  <section class="sidebar">
+    <h2>Actions</h2>
+    <button onclick="showMeme()">Show a Meme</button>
+    <button onclick="showJoke()">Tell Me a Joke</button>
+    <button onclick="showQuote()">Random Quote</button>
+    <button onclick="showRiddle()">Riddle me</button>
+    <button class="reveal-btn" onclick="revealAnswers()">Reveal Riddle Answer</button>
+    <p class="attribution">Code challenge by <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a></p>
+  </section>
+</main>
+
+</body>
+</html>
