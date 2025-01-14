@@ -30,3 +30,15 @@
 .spacer{
    padding-top: var(--spacersize, 15px);
 }
+
+button{
+    width: fit-content;
+    height: 25px;
+    color : White;
+    background-color: Black;
+    border-radius: 10px;
+}
+
+.MasterButton{
+    margin: 20px;
+}
