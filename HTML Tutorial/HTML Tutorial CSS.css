@@ -1,0 +1,10 @@
+.my-btn {
+    margin: 20px;
+    border-radius: 10px;
+    height: 45px;
+    background-color: #bc2c2b;
+    border-color: #fbae14;
+    color: #fbae14;
+    font-weight: bold;
+    font-size: 22px;
+}
