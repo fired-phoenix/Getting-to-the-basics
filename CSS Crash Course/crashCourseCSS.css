@@ -1,0 +1,83 @@
+/*
+Most common
+    Position - {Fixed, absolute, relative, fixed, sticky}
+
+*/
+root{
+ font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+h4{
+    margin: 0;
+
+}
+
+ul{
+    /*position: fixed;*/
+    padding-top: 50px;
+}
+
+nav{
+    background-color : navy;
+    color : white;
+    height: 60px;
+    line-height:60px;
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    /*Alternative is using width : 100vw;*/
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#space-maker{
+    margin-top: 2000px;
+}
+
+.box{
+
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+}
+
+section{
+    /*margin-top: 70px;*/
+    /*padding-top: 5px;*/
+    background-image : url(https://freefrontend.com/assets/img/css-background-patterns/2024-pure-css-background-pattern.png);
+    width : 100vw;
+    height : 100vh;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+
+}
+
+.rel-position {
+    position: relative;
+    /*Where you set a parents position to relative - you can set its child to absolute*/
+
+    /*Enables the Z index - allows on top control */
+    /*top: 10px;*/
+    width: 500px;
+}
+
+.abs-position{
+    width: 120px;
+    height: 20px;
+    background-color: red;
+    /*position: absolute;*/
+    /*top: 0;*/
+   /* right: 0;*/
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+
+}

@@ -1,0 +1,156 @@
+root{
+    /*Primary Colors*/
+    --color-cyan: #000000;
+    --color-bright-yellow: hsl(71, 73%, 54%);
+
+    /* Neutral Color*/
+    --color-light-grey: hsl(204, 43%, 93%);
+    --colour-grayish-blue: hsl(218, 22%, 67%);
+
+    /* Typography Settings*/
+    --body-copy-text-size: 16px;
+    --body-font-family: Karla, sans-serif;
+    --body-font-size-variant1: 400;
+    --body-font-size-variant2: 700;
+
+}
+
+html{
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    /*margin:0;*/
+    padding: 20px;
+}
+
+#single_price_grid_card{
+   /* border: 1px solid Red;*/
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0 rgba(0,0,0,0.35);
+    border-radius: 5px;
+    overflow: hidden; /*allows you to make sure box / elements that overflow are within the border radius*/
+
+}
+
+#top_content{
+    /*border: 1px solid Green;*/
+    width: 100%;
+    height: 45%;
+    background-color: #ffffff;
+}
+
+#bottom_content{
+  /*  border: 1px solid blue;*/
+    width: 100%;
+    height: 55%;
+    vertical-align: top;
+    color: white;
+}
+
+#bottom_LHS_content{
+    display: inline-block;
+   /* border: 1px solid orangered;*/
+    width: 50%;
+    height:100%;
+    vertical-align: top;
+    background-color: #2bb3b1;
+}
+
+#bottom_RHS_content{
+    display: inline-block;
+   /* border: 1px solid black;*/
+    width: 50%;
+    height:100%;
+    vertical-align: top;
+    background-color: #4abebd;
+}
+
+#sign_up_button{
+    margin-top: 25px;
+    background-color: #bfdf32;
+    color: white;
+    border :none;
+    padding: 10px;
+    width :100%;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+#sign_up_button:hover{
+    cursor: pointer;
+    opacity:0.8;
+    transform: scale(1.02);
+
+}
+
+#top_content, #bottom_LHS_content, #bottom_RHS_content{
+    padding:35px;
+}
+
+
+h1, h2, h3, h4, h5, h6,p{
+    margin : 0;
+}
+
+#top_content h2{
+    color: #2AB2AFFF;
+    margin-bottom: 15px;
+}
+
+#top_content h4{
+    color: #C0DF34FF;
+    margin-bottom: 20px;
+}
+
+#top_content p{
+    color: #98A6BDFF;
+    margin-bottom: 20px;
+}
+
+#price_container{
+    display: inline-block;
+    margin-bottom:15px;
+}
+
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: inline-block;
+}
+#price_freq{
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+    top:-4px;
+    left:6px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+#bottom_LHS_content h4{
+    margin-bottom: 20px;
+}
+
+#bottom_LHS_content p {
+    font-size: 0.8rem;
+
+}
+
+#bottom_RHS_content ul{
+    padding: 0;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.6;
+
+}
