@@ -1,0 +1,58 @@
+.container{
+    display : flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.box_1{
+    border: 2px solid Green;
+    color: green;
+
+}
+
+.box_2{
+    border: 2px solid Navy;
+    color: Navy;
+}
+
+.box_1, .box_2{
+    flex-basis:50%;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+p{
+    margin: 0;
+
+}
+
+
+/*
+.headding-superior{
+    margin:0;
+    color: White;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.main-content{
+    background-image: url("https://freefrontend.com/assets/img/css-background-patterns/2024-puzzle-four-pieces-simpler-tessellated-pattern-no-div-pure-css.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}*/
+
+/*.the_superior_section{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background-color: yellow;*/
+/*    margin: 20px;*/
+/*}*/
